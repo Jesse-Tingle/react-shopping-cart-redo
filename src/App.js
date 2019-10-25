@@ -16,7 +16,6 @@ function App() {
 		setCart([...cart, item])
 	};
 
-
 	return (
 		<div className="App">
 			<Navigation cart={cart} />
